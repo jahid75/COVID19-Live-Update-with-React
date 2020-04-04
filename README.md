@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and contributed by [Niamul Islam](https://niamul.me).
+
+API used from [https://covid19api.com](https://covid19api.com), thanks [Kyle Redelinghuys](https://twitter.com/ksredelinghuys). Data is sourced from [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19). Thanks everyone for providing us this great opportunity.
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).

@@ -1,12 +1,6 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 70px;
@@ -21,12 +15,24 @@
 .App-intro {
   font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table_container .MuiTableCell-root{
+  font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+footer span.material-icons {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #ff0000;
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+footer {
+  overflow: hidden;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 25px;
 }

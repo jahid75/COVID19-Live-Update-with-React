@@ -22,12 +22,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Check the COVID 19 Live status here!</h2>
+          <h2>COVID-19 CORONAVIRUS PANDEMIC</h2>
         </div>
         <div className="table_container">
           {summary.length ? (
             <MaterialTable
-              title="Corona Virus Live Update!"
+              title="COVID-19 Coronavirus updates!"
               columns={[
                 { title: "Country", field: "Country" },
                 {
@@ -78,6 +78,12 @@ class App extends Component {
             </div>
           )}
         </div>
+          <footer>
+              <p>Made with React <span className="material-icons MuiIcon-root" aria-hidden="true">favorite</span> | Contributed by <a
+                  href="https://niamul.me">Niamul</a></p>
+              <p>API used from <a href="https://covid19api.com">covid19api.com</a>, thanks <a href="https://twitter.com/ksredelinghuys">Kyle Redelinghuys</a>. Data is sourced from <a
+                  href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins CSSE</a>. Thanks everyone for providing us this great opportunity.</p>
+          </footer>
       </div>
     );
   }
