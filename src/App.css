@@ -3,17 +3,61 @@
 }
 .App-header {
   background-color: #222;
-  height: 70px;
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
+.App-header h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
 .table_container {
-  max-width: 1100px;
+  max-width: 1170px;
   margin: auto;
-  padding: 50px 20px;
+  padding: 20px;
 }
 .App-intro {
   font-size: large;
+}
+.world_info_wrapper {
+  padding: 30px 0;
+  max-width: 1170px;
+  margin: auto;
+}
+.world_info_wrapper .world_info.row {
+  display: flex;
+}
+.world_info.row .col-3 {
+  flex: 1;
+  padding: 15px;
+}
+.world_info .col-3.text-center {
+  border: 1px solid #eee;
+  margin: 5px;
+}
+.world_info h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.8;
+  margin: 0;
+}
+.world_info.row p {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+p.total_recovered, .n_icon.icon_recovered {
+  color: #72B01D;
+}
+p.total_death, .n_icon.icon_deaths {
+  color: #EF476F;
+}
+p.total_cases, .n_icon.icon_cases {
+  color: #A390E4;
+}
+.n_icon .material-icons {
+  font-size: 3rem;
+  display: block;
 }
 .table_container .MuiTableCell-root{
   font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
@@ -35,4 +79,11 @@ footer {
   display: block;
   padding-top: 30px;
   padding-bottom: 25px;
+}
+@media screen and (max-width: 660px) {
+  .world_info_wrapper .world_info.row {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+  }
 }
