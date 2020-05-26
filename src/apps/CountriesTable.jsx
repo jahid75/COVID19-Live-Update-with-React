@@ -23,6 +23,7 @@ class CountriesTable extends Component {
                 let hours = updated.getHours();
                 let minutes = "0" + updated.getMinutes();
                 let ampm = hours >= 12 ? 'pm' : 'am';
+                hours = hours % 12;
                 hours = hours ? hours : 12;
                 let updated_at = month + ' ' + day + ', ' +hours + ':' + minutes.substr(-2) + ampm;
                 let newCountry = {
@@ -105,7 +106,7 @@ class CountriesTable extends Component {
                 />
             ) : (
                 <div className="text-center not_found">
-                    <p>Please wait, loading...</p>
+                    <p>Please wait, while we are loading...</p>
                 </div>
             )}
         </div>);
