@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2af097fd-50ca-49ca-a891-2a7f81cdd6aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apps/CountriesTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/apps/CountriesTable.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="2af097fd-50ca-49ca-a891-2a7f81cdd6aa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +45,7 @@
       <workItem from="1586000241938" duration="3509000" />
       <workItem from="1586035226644" duration="6942000" />
       <workItem from="1586371768647" duration="4000" />
-      <workItem from="1590453490166" duration="566000" />
+      <workItem from="1590453490166" duration="1031000" />
     </task>
     <servers />
   </component>
